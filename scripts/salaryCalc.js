@@ -1,6 +1,4 @@
 const employees = [];
-
-
 let budget = 20000;
 let inputType = true;
 $(document).ready(readyNow);
