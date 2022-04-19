@@ -95,7 +95,6 @@ console.log(`Annual expenditure is: $${anex.toFixed(2)}`)
 
 
 
-
 // function onInputType(){
 //     if (inputType = false){
 //         console.log(`Create a false input function.`)
