@@ -1,0 +1,123 @@
+body{
+  background-image: url("Images/bimg3.jpg");
+  text-align: center;
+  background-size:cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+  padding: 10px;
+
+}
+.headLine1{
+  color: rgb(210, 210, 210);
+
+
+
+}
+.headLine2{
+  color: rgb(210, 210 , 210);
+
+}
+
+.monthOuts{
+border-radius: 15px;
+}
+
+.eTable{
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+
+}
+
+.outputBoxes{
+  color: rgb(0, 0, 0);
+}
+.boxone{
+text-align: center;
+background-color: rgb(0, 0, 0);
+color: rgb(255, 255, 255);
+font-family: 'Courier New', Courier, monospace;
+font-size:15px;
+font-weight: bolder;
+border-radius: 15px;
+
+}
+.buttonOne{
+  background-color: rgb(0, 0, 0);
+  color: dimgray;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  border-radius: 16px;
+
+}
+
+.dButton{
+  background-color: rgb(0, 0, 0);
+
+  color: rgb(255, 255, 255);
+
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bolder;
+  border-radius: 16px;
+}
+
+
+html {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: larger;
+  }
+  
+  table {
+    text-align: center;
+    border-collapse: collapse;
+    border: 2px solid rgb(200,200,200);
+    letter-spacing: 1px;
+    font-size: 0.8rem;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  
+  td, th {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 10px 20px;
+  }
+  
+  th {
+    background-color: rgba(255, 255, 255, 0.61);
+
+
+
+  }
+  
+  td {
+    text-align: center;
+  }
+  
+  tr:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.61);
+    color: rgb(0, 0, 0);
+    font-size: large;
+    font: bolder;
+
+  }
+
+
+  
+  tr:nth-child(odd) td {
+    background-color:rgba(0, 0, 0, 0.61) ;
+    color: rgb(255, 255, 255);
+  font-size: large;
+    font: bolder;
+
+
+  }
+
+.nothingHere{
+    background-color: rgb(0, 0, 0);
+  }
+
+
+  caption {
+    padding: 10px;
+  }
+

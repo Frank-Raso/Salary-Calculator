@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+<script src="vendors/JQs.js"></script>
+<script src="scripts/salaryCalc.js"></script>
+<link href="styles/salaryCalc.css" rel="stylesheet" type="text/css">
+<title>Table</title>
+</head>
+
+  <body>
+      
+      <h1 class="headLine1">Salary Calculator</h1>
+      <h3 class="headLine1" >Add Employee</h3>
+      <div class="inputBoxes" > 
+      <input class="boxone" type="text" placeholder="First Name" id="firstIn"  >
+      <input class="boxone"  type="text" placeholder="Last Name" id="lastIn"  >
+      <input class="boxone"  type="text" placeholder="ID" id="idIn"  >
+      <input class="boxone" type="text" placeholder="Title" id="titleIn"  >
+      <input class="boxone"  type="number" placeholder="Annual Salary" id="aSalIn"  >
+          <button class="buttonOne" id="subIn" >Submit</button>
+    </div>
+
+    <div class="outputBoxes" id="tableOut">
+      <h2 class="headLine2" >Staff</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>ID</th>
+            <th>Title</th>
+            <th>Annual Salary</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody class="eTable" id="eTable"></tbody>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td class="nothingHere" colspan="6"></td>
+          </tr>
+        </tfoot>
+      </table>
+      <h3 class="monthOuts" id="monthOut"></h3>
+    </div>
+  </body>
+  </html>
