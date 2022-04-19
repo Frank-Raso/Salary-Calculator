@@ -2,6 +2,7 @@ const employees = [];
 let budget = 20000;
 let inputType = true;
 $(document).ready(readyNow);
+
 function readyNow(){
 $('#subIn').on('click',addEm)
 $('#eTable').on('click','.dButton', deleteEmp,)
@@ -86,15 +87,7 @@ console.log(`Annual expenditure is: $${anex.toFixed(2)}`)
     console.log('IN Delete')
     $(this).closest('tr').remove();
     calcValue()
-
-
-
 }
-
-
-
-
-
 // function onInputType(){
 //     if (inputType = false){
 //         console.log(`Create a false input function.`)
